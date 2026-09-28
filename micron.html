@@ -1,0 +1,1908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Micron Dried Store</title>
+
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link href="./micron.css" rel="stylesheet">
+</head>
+<body>
+
+
+<nav class="site-navbar p-4" id="siteNavbar">
+  <div class="container-fluid px-4">
+    <div class="d-flex align-items-center justify-content-between ">
+
+ <button class="navbar-toggler d-lg-none   text-white border-0" type="button" id="mobileToggle">
+        <i class="bi"></i>
+        <span style="color:#fff;font-size:1.8rem;">&#9776;</span>
+      </button>
+
+
+
+      <a href="#" class="d-flex align-items-center justify-content-center  text-decoration-none  ms-lg-5">
+       <img src="./image/shop.png" class="img-fluid  ms-4 ms-lg-0" style="width: 100px;">
+      </a>
+
+     
+
+      <div class="align-items-center d-none d-lg-flex" id="navLinksWrap">
+        <ul class="navbar-nav flex-row align-items-center mb-0">
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#">Home</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-link-custom dropdown-toggle" href="#">Apricot</a>
+            <div class="dropdown-menu-custom mt-4 p-5" style="width: 900px;">
+              <div class="row gap-4 ">
+              <div class="col-lg-2">
+              <a href="#" class="fs-5">Cashew</a>
+
+              <div class="div ms-4">
+               <p class="ms-2">splits</p>
+                <p class="ms-2">Butts</p>
+                 <p class="d-flex">Baby Bite</p>
+                  <p class=""> Wholes</p>
+                   <p>Scarched</p>
+              </div>
+              
+              </div>
+              <div class="col-lg-2">
+              <a href="#" class="fs-5">Walnuts</a>
+
+  <div class="div ms-4">
+               <p>splits</p>
+                <p>Butts</p>
+                 <p class="d-flex">Baby Bite</p>
+                  <p class=""> Wholes</p>
+                   <p>Scarched</p>
+              </div>
+
+
+              </div>
+
+              <div class="col-lg-2">
+              <a href="#" class="fs-5">Almond</a>
+
+                 <div class="div ms-4">
+               <p>splits</p>
+                <p>Butts</p>
+                 <p class="d-flex">Baby Bite</p>
+                  <p class=""> Wholes</p>
+                   <p>Scarched</p>
+              </div>
+
+
+
+              </div>
+
+              <div class="col-lg-2">
+              <a href="#" class="fs-5">Pistachio</a>
+
+
+                <div class="div ms-4">
+               <p>splits</p>
+                <p>Butts</p>
+                 <p class="d-flex">Baby Bite</p>
+                  <p class=""> Wholes</p>
+                   <p>Scarched</p>
+              </div>
+
+              </div>
+
+              <div class="col-lg-2">
+              <a href="#" class="fs-5">Peanuts</a>
+              
+
+                <div class="div ms-4">
+               <p>splits</p>
+                <p>Butts</p>
+                 <p class="d-flex">Baby Bite</p>
+                  <p class=""> Wholes</p>
+                   <p>Scarched</p>
+              </div>
+
+
+              </div>
+            <img src="./image/menu-banner.webp" class="">
+            </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-link-custom dropdown-toggle" href="#">Raisins</a>
+            <div class="dropdown-menu-custom mt-4">
+              <a href="#">Golden Raisins</a>
+              <a href="#">Black Raisins</a>
+              <a href="#">Green Raisins</a>
+              <a href="#">Seedless Raisins</a>
+            </div>
+          </li>
+
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#">Pecans</a></li>
+          <li class="nav-item"><a class="nav-link nav-link-custom" href="#">Prunes</a></li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-link-custom btn-more dropdown-toggle" href="#">More</a>
+            <div class="dropdown-menu-custom">
+              <a href="#">Contact us</a>
+              <a href="#">Blogs</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+        <div class="d-flex align-items-center ms-5  d-md-flex d-flex d-lg-flex">
+          <a href="#" class="icon-link "><i class="fa-solid fa-magnifying-glass"></i></a>
+          <a href="#" class="icon-link"><i class="fa-solid fa-user"></i></a>
+
+          
+
+
+
+          <a href="#" 
+   class="icon-link position-relative"
+   data-bs-toggle="offcanvas"
+   data-bs-target="#cartOffcanvas"
+   aria-controls="cartOffcanvas">
+    <i class="fa-solid fa-cart-arrow-down"></i>
+    <span class="cart-badge" id="num">0</span>
+</a>
+        
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile menu -->
+    <div id="mobileMenu" class="d-lg-none" style="display:none;">
+      <ul class="navbar-nav mb-0 mt-3">
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="#">Home</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-link-custom dropdown-toggle" href="#">Apricot</a>
+          <div class="dropdown-menu-custom">
+            <a href="#">Turkish Apricot</a>
+            <a href="#">Organic Apricot</a>
+            <a href="#">Jumbo Apricot</a>
+            <a href="#">Apricot Halves</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-link-custom dropdown-toggle" href="#">Raisins</a>
+          <div class="dropdown-menu-custom">
+            <a href="#">Golden Raisins</a>
+            <a href="#">Black Raisins</a>
+            <a href="#">Green Raisins</a>
+            <a href="#">Seedless Raisins</a>
+          </div>
+        </li>
+
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="#">Pecans</a></li>
+        <li class="nav-item"><a class="nav-link nav-link-custom" href="#">Prunes</a></li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link nav-link-custom dropdown-toggle" href="#">More</a>
+          <div class="dropdown-menu-custom">
+            <a href="#">Contact us</a>
+            <a href="#">Blogs</a>
+          </div>
+
+        </li>
+
+        <li class="nav-item d-flex align-items-center mt-2">
+          
+
+
+
+
+        </li>
+      </ul>
+    </div>
+  </div>
+ 
+
+ 
+</nav>
+
+ 
+
+<div class="section container-fluid bg-img p-0 " id="ani">
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     <div class="bg-img" style="background-image: url('./image/istockphoto-1383962772-612x612.jpg');">
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+        <h3 class="text-white">Premium Assorted</h3>
+        <p class="fs">Dried Fruits And Nuts</p>
+        <button class="btn btn-light px-3 py-3" id="txt">Shop Now</button>
+      </div>
+    </div>
+    </div>
+    
+  
+    <div class="carousel-item">
+    <div class="bg-img" style="background-image: url('./image/slider-01.webp');">
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center ">
+        <h3 class="text-white">Premium Quality Products</h3>
+        <p class="fs">Dried Berries & Nuts</p>
+         <button class="btn btn-light px-3 py-3" id="txt">Shop Now</button>
+      </div> 
+    </div>
+    </div>
+    <div class="carousel-item">
+     <div class="bg-img" style="background-image: url('./image/slider-01.webp');">
+      <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+        <h3 class="text-white">New York</h3>
+        <p class="fs">Dried Fruits & Nuts</p>
+         <button class="btn btn-light px-3 py-3" id="txt">Shop Now</button>
+      </div>  
+    </div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev an" type="button" data-bs-target="#demo" data-bs-slide="prev">
+   <span class="carousel-control-prev-icon ">
+    <i class="fa-solid fa-chevron-left fs-1 bg"></i>
+   </span>
+   
+  </button>
+  <button class="carousel-control-next an" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon">
+      <i class="fa-solid fa-chevron-right fs-1 "></i>
+    </span>
+  </button>
+</div>
+
+
+</div>
+
+
+<div class="  container mt-5 hidden">
+  <div class="row justify-content-between">
+
+    <div class="col-12 ro d-md-none d-none d-lg-block">
+<img src="./image/tb-service-img.webp" class="img-fluid mx-auto d-block ">
+    </div>
+  
+
+
+
+
+    <div class="col-12 roo  d-lg-none">
+<img src="./image/tb-service-img.webp" class="img-fluid mx-auto d-block ">
+    </div>
+   <div class="col-6 col-lg-2">
+   <div class="service mt-4">
+    <i class="fa-solid fa-truck fs-1 my"></i>
+    <h3 class="delivery">Free Delivery</h3>
+    <p class="wide">Worldwide From $75</p>
+</div>
+   </div>
+    <!--second-->
+
+<div class="col-6 col-lg-2">
+  <div class="service mt-4">
+    <i class="fa-solid fa-headset fs-1 my"></i>
+    <h3 class="delivery">Free Delivery</h3>
+    <p class="wide">Worldwide From $75</p>
+</div>
+
+    </div>
+
+    <!-- third -->
+
+
+    <div class="col-6 col-lg-2">
+  <div class="service mt-4">
+    <i class="fa-solid fa-headset fs-1 my"></i>
+    <h3 class="delivery">Free Delivery</h3>
+    <p class="wide">Worldwide From $75</p>
+</div>
+
+    </div>
+
+    <!-- fourth -->
+
+    <div class="col-6 col-lg-2">
+  <div class="service mt-4">
+    <i class="fa-solid fa-headset fs-1 my"></i>
+    <h3 class="delivery">Free Delivery</h3>
+    <p class="wide">Worldwide From $75</p>
+</div>
+
+    </div>
+
+
+
+  </div>
+
+  <h2 class="categories mt-5">Categories Features</h2>
+
+
+
+  
+
+<div id="categoryCarousel hidden" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="3000">
+
+<div class="carousel-inner">
+
+<!-- Slide 1 -->
+<div class="carousel-item active">
+
+<div class="row g-4">
+
+<div class="col-12 col-lg-6 col-md-6 ">
+<div class="category-card" style="background-image:url('./image/categories-img-04.webp');" id="card">
+<div class="overlay">
+<h2 class="text-white">Peanuts</h2>
+<div class="line" id="line"></div>
+<p class="text-white">Runner</p>
+<p class="text-white">Virginia</p>
+<p class="text-white">Valencia</p>
+
+<a href="#" class="btn btn-light px-5 py-3 mt-3">View All</a>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-lg-6 col-md-6 d-none d-md-block d-lg-block">
+<div class="category-card" style="background-image:url('./image/categories-img-04.webp');" id="card2">
+<div class="overlay">
+<h2 class="text-white">Cashew</h2>
+<div class="line" id="line2"></div>
+<p class="text-white">Splits</p>
+<p class="text-white">Butts</p>
+<p class="text-white">Scorched</p>
+
+<a href="#" class="btn btn-light px-5 py-3 mt-3">View All</a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- Slide 2 -->
+
+<div class="carousel-item">
+
+<div class="row g-4">
+
+<div class="col-12 col-lg-6 col-md-6">
+<div class="category-card" style="background-image:url('./image/categories-img-04.webp');" id="card3">
+<div class="overlay">
+<h2 class="text-white">Almond</h2>
+<div class="line" id="line3"></div>
+<p class="text-white">Natural</p>
+<p class="text-white">Roasted</p>
+<p class="text-white">Salted</p>
+
+
+
+<a href="#" class="btn btn-light px-5 py-3 mt-3">View All</a>
+</div>
+</div>
+</div>
+
+<div class="col-12 col-lg-6 col-md-6 d-none d-md-block d-lg-block">
+<div class="category-card" style="background-image:url('./image/categories-img-04.webp');" id="card5">
+<div class="overlay">
+<h2 class="text-white">Pistachio</h2>
+<div class="line" id="line5"></div>
+<p class="text-white">Premium</p>
+<p class="text-white">Salted</p>
+<p class="text-white">Raw</p>
+
+<a href="#" class="btn btn-light px-5 py-3 mt-3">View All</a>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+    </div>
+  </div>
+
+</div>
+
+
+ <!-- section 2 -->
+
+ <div class="container text-center hidden">
+  <h1 class="text-center mt-5">Top Products</h1>
+
+
+
+
+
+
+    <div class="row g-3 mt-5 hidden">
+
+        <div class="col-12 col-md-12 col-lg-3">
+            <button class="product-btn active-btn w-75">
+                Latest
+            </button>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-3">
+            <button class="product-btn w-75 ">
+                Featured
+            </button>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-3">
+            <button class="product-btn w-75">
+                Best Seller
+            </button>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-3">
+            <button class="product-btn w-75">
+                Special
+            </button>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+ <div class="container mt-5 hidden">
+
+
+
+
+
+  
+
+
+
+
+
+<div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/images (1).jpg" data-hover="./image/first_back.webp">
+              <span class="sale-badge">Sale</span>
+              <div class="corner-badge"><i class="fa-solid fa-tag"></i></div>
+              <img src="./image/images (1).jpg" alt="Akbari Salted Pistachios">
+              <div class="hover-icons">
+                <button class="icon-btn icon" onclick="cart(0)"  ><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Akbari Salted Pistachios</h5>
+            <span class="price">$80.00</span>
+            <span class="discount">-20%</span>
+            <span class="old-price">$100.00</span>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/front2.webp" data-hover="./image/back2.webp">
+              <img src="./image/front2.webp" alt="Gourmia Energy Nuts & Seeds">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(1)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Gourmia Energy Nuts & Seeds</h5>
+            <span class="price">$100.00</span>
+          </div>
+        </div>
+
+
+
+<div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/kk front.webp" 
+            data-hover="./image/kk back.webp">
+              <img src="./image/kk front.webp" alt="Gourmia Energy Nuts & Seeds">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(2)" ><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Karmiq Walnut Kernels</h5>
+            <span class="price">$150.00</span>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/nutraj front.webp" data-hover="./image/nutraj back.webp">
+              <img src="./image/nutraj front.webp" alt="Gourmia Energy Nuts & Seeds">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(3)"   ><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Nutraj Special Raisins</h5>
+            <span class="price">$150.00</span>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/kingfront.webp" data-hover="./image/kingback.webp">
+              <img src="./image/kingfront.webp" alt="Gourmia Energy Nuts & Seeds">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(4)"   ><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Farms Green Pistachios</h5>
+            <span class="price">$112.00</span>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/front2.webp" data-hover="./image/first_back.webp">
+              <img src="./image/front2.webp" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(5)" ><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Karmiq California Almonds</h5>
+            <span class="price">$180.00</span>
+            <span class="discount">-28%</span>
+            <span class="old-price">$200.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <p class="tim" id="dem" style="color: red; font-size: 10px;"></p>
+            <div class="product-img-wrap" data-dav="./image/berriesfront.webp" data-hover="./image/berriesback.avif">
+              <img src="./image/berriesfront.webp" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(6)"  ><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+        
+      
+
+          <div class="product-info">
+            <h5 class="text-dark">King Mixed Dry Fruits</h5>
+            <span class="price">$250.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$200.00</span>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/kingfront.webp" data-hover="./image/kingback.webp">
+              <img src="./image/kingfront.webp" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(7)"  ><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Premium Dried Cranberries</h5>
+            <span class="price">$350.00</span>
+            <span class="discount">-13%</span>
+            <span class="old-price">$200.00</span>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/kk front.webp" data-hover="./image/kk back.webp">
+              <img src="./image/kk front.webp" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(8)" ><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Karmiq Walnut Kernels</h5>
+            <span class="price">$150.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$200.00</span>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/nutraj front.webp" data-hover="./image/nutraj back.webp">
+              <img src="./image/nutraj front.webp" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(9)" ><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Karmiq Walnut Kernels</h5>
+            <span class="price">$150.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$200.00</span>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/images (1).jpg" data-hover="./image/first_back.webp">
+              <img src="./image/images (1).jpg" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(10)" ><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Karmiq Walnut Kernels</h5>
+            <span class="price">$150.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$200.00</span>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-4 col-6 col-lg-4">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/images (1).jpg" data-hover="./image/first_back.webp">
+              <img src="./image/images (1).jpg" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(11)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Karmiq Walnut Kernels</h5>
+            <span class="price">$150.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$200.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+ </div>
+
+
+
+
+
+
+<div class="container px-4 py-4 mt-5 hidden">
+  <div class="row g-3">
+    <div class="col-md-6">
+      <div class="david-box">
+        <img src="./image/banner-02.webp">
+        <div class="david-overlay"></div>
+        <div class="david-content">
+          <h2 id="org">Organic Almonds</h2>
+          <p id="org">Fuel your body with these wholesome nutritious and satisfying everyday snacks.</p>
+          <button class="david-btn">Shop Now</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-6 col-12">
+      <div class="david-box">
+        <img src="./image/banner-02.webp" class="img-fluid">
+        <div class="david-overlay "></div>
+        <div class="david-content">
+          <h2 id="org">Nutritious Gems</h2>
+          <p id="org">Support your health with these delicious nourishing and easy to enjoy snacks.</p>
+          <button class="david-btn">Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!--Fourth section-->
+
+
+<div class="container text-center david-section hidden">
+  <h2 class="david-title">Categories Products</h2>
+  <div class="david-divider">
+    <span class="david-line"></span>
+    <img src="./image/logo.webp"  class="david-divider-icon ms-3">
+    <span class="david-line"></span>
+  </div>
+
+  <div class="d-flex justify-content-center flex-wrap gap-3 david-btns">
+    <button class="david-btn david-selected">
+      <span class="david-bg"></span>
+      <span class="david-text">Cashew</span>
+    </button>
+    <button class="david-btn">
+      <span class="david-bg"></span>
+      <span class="david-text">Almond</span>
+    </button>
+    <button class="david-btn">
+      <span class="david-bg"></span>
+      <span class="david-text">Pistachio</span>
+    </button>
+  </div>
+
+
+
+    <div id="productCarousel5" class="carousel slide mt-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-4 col-6 col-lg-3">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/jean.webp" data-hover="./image/jean.webp">
+              <span class="sale-badge">Sale</span>
+              <div class="corner-badge"><i class="fa-solid fa-tag"></i></div>
+              <img src="./image/jean.webp" alt="Akbari Salted Pistachios">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(12)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Trendy Loose Non-Stretch </h5>
+            <span class="price">$110.00</span>
+            <span class="discount">-20%</span>
+            <span class="old-price">$100.00</span>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6 col-lg-3">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/jean2.webp" data-hover="./image/jean2.webp">
+              <img src="./image/jean2.webp" alt="Gourmia Energy Nuts & Seeds">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(13)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Patched Denim</h5>
+            <span class="price">$80.00</span>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-6 col-lg-3 d-none d-md-block d-lg-block">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/jean3.webp" data-hover="./image/jean3.webp">
+              <img src="./image/jean3.webp" alt="Gourmia Energy Nuts & Seeds">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(14)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark"> Stretch Denim Jorts Men</h5>
+            <span class="price">$70.00</span>
+          </div>
+        </div>
+
+
+
+<div class="col-md-4 col-6 col-lg-3 d-none  d-lg-block">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/top.webp" data-hover="./image/top.webp">
+              <img src="./image/top.webp" alt="Gourmia Energy Nuts & Seeds">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(15)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Crew Neck T-Shirt </h5>
+            <span class="price">$30.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+       
+
+        
+
+
+
+       
+
+
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-4 col-6 col-lg-3">
+          <div class="product-card">
+            
+            <div class="product-img-wrap" data-dav="./image/top3.webp" data-hover="./image/top3.webp">
+              <img src="./image/top3.webp" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(16)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+        
+      
+
+          <div class="product-info">
+            <h5 class="text-dark">Neck Short Sleeve</h5>
+            <span class="price">$15.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$10.00</span>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-6 col-lg-3">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/top5.webp" data-hover="./image/top5.webp">
+              <img src="./image/top5.webp" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(17)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Liberty T-Shirt</h5>
+            <span class="price">$20.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$20.00</span>
+          </div>
+        </div>
+
+
+
+ <div class="col-md-4 col-6 col-lg-3 d-none d-md-block d-lg-block">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/top6.webp" data-hover="./image/top6.webp">
+              <img src="./image/top6.webp" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(18)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Topie Short</h5>
+            <span class="price">$70.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$95.00</span>
+          </div>
+        </div>
+
+
+
+         <div class=" col-6 col-lg-3 d-none d-lg-block">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/top6.webp" data-hover="./image/top6.webp">
+              <img src="./image/top6.webp" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(18)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Topie Short</h5>
+            <span class="price">$70.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$95.00</span>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-6 col-lg-3 d-none">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/images (1).jpg" data-hover="./image/first_back.webp">
+              <img src="./image/images (1).jpg" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(19)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Karmiq Walnut Kernels</h5>
+            <span class="price">$150.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$200.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+        
+
+
+        
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel5" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#productCarousel5" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+ </div>
+
+
+</div>
+
+<!--section fifth  -->
+
+<div class="container-fluid sec-img section p-0">
+
+
+ <div class="hero-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="hero-heading">Super Food For Your Super Brain</h1>
+          <div class="hero-divider"></div>
+          <p class="hero-text">Nutrient rich superfoods designed to boost focus energy and mental performance for a healthier smarter lifestyle.</p>
+          <button class="btn btn-shop">Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+<!-- sixth section -->
+
+<h1 class="testimonial-heading">Testimonial</h1>
+
+ <div class="container-fluid mt-5 hidden">
+<div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+ 
+    <div class="carousel-item active">
+      <div class="testimonial-card">
+        <div class="row align-items-center g-4">
+          <div class="col-md-4 d-flex align-items-center gap-4">
+            <img src="./image/verona.jpg" class="testimonial-avatar" alt="Verona Blair">
+            <div>
+              <p class="testimonial-name">Verona Blair</p>
+              <p class="testimonial-role">Web Designer</p>
+            </div>
+          </div>
+          <div class="col-md-1 d-none d-md-flex justify-content-center">
+            <div class="vr-divider"></div>
+          </div>
+          <div class="col-md-2 d-flex justify-content-center">
+            <div class="quote-icon">&rdquo;</div>
+          </div>
+          <div class="col-md-5">
+            <p class="testimonial-quote">"Micron Dried understands simple, honest food. Each product feels carefully prepared, making healthy snacking easy and enjoyable reflects care and authenticity."</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+ 
+    <div class="carousel-item">
+      <div class="testimonial-card">
+        <div class="row align-items-center g-4">
+          <div class="col-md-4 d-flex align-items-center gap-4">
+            <img src="./image/wong.jpg" class="testimonial-avatar" alt="James Carter">
+            <div>
+              <p class="testimonial-name">Mia Wong</p>
+              <p class="testimonial-role">Marketting Manager</p>
+            </div>
+          </div>
+          <div class="col-md-1 d-none d-md-flex justify-content-center">
+            <div class="vr-divider"></div>
+          </div>
+          <div class="col-md-2 d-flex justify-content-center">
+            <div class="quote-icon">&rdquo;</div>
+          </div>
+          <div class="col-md-5">
+            <p class="testimonial-quote">"From daily snacking to cooking essentials, Micron Dried dellivers consistent quality.The texture,taste,and freshness clean,tasty,truely stand out.i think also the dried is premium"</p>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>
+ 
+    <div class="carousel-item">
+      <div class="testimonial-card">
+        <div class="row align-items-center g-4">
+          <div class="col-md-4 d-flex align-items-center gap-4">
+            <img src="./image/harry.jpg" class="testimonial-avatar" >
+            <div>
+              <p class="testimonial-name">Day Harry</p>
+              <p class="testimonial-role">Ceo - Founder</p>
+            </div>
+          </div>
+          <div class="col-md-1 d-none d-md-flex justify-content-center">
+            <div class="vr-divider"></div>
+          </div>
+          <div class="col-md-2 d-flex justify-content-center">
+            <div class="quote-icon">&rdquo;</div>
+          </div>
+          <div class="col-md-5">
+            <p class="testimonial-quote">"My clients love these snacks between workouts. Natural energy, great taste, and no guilt. Micron Dried has become a staple in my program."</p>
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+ 
+  </div>
+  <div class="carousel-indicators position-static">
+    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+  </div>
+</div>
+ 
+  
+</div>
+
+
+
+<!--8th section-->
+ 
+
+<div class="container hidden left">
+<h2 class="categories mt-5">Special Products</h2>
+
+<div id="productCarousel2" class="carousel slide mt-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-6 col-6 col-lg-3">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/noodles.jpg" data-hover="./image/noodles.jpg">
+              <span class="sale-badge">Sale</span>
+              <div class="corner-badge"><i class="fa-solid fa-tag"></i></div>
+              <img src="./image/noodles.jpg" alt="Akbari Salted Pistachios">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(20)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Super Noodles</h5>
+            <span class="price">$16.00</span>
+            <span class="discount">-30%</span>
+            <span class="old-price">$35.00</span>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-6 col-lg-3">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/noodles2.jpg" data-hover="./image/noodles2.jpg">
+              <img src="./image/noodles2.jpg" alt="Gourmia Energy Nuts & Seeds">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(21)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Hot Pep Noodles</h5>
+            <span class="price">$30.00</span>
+          </div>
+        </div>
+
+
+
+<div class="col-md-6 col-6 col-lg-3">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/noodles3.jpg" data-hover="./image/noodles3.jpg">
+              <img src="./image/noodles3.jpg" alt="Gourmia Energy Nuts & Seeds">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(22)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Indomie Tables</h5>
+            <span class="price">$26.00</span>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 col-6 col-lg-3">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/noodles5.jpg" data-hover="./image/noodles5.jpg">
+              <img src="./image/noodles5.jpg" alt="Gourmia Energy Nuts & Seeds">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(23)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Onion Chicken</h5>
+            <span class="price">$30.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<div class="carousel-item">
+      <div class="row">
+        <div class="col-md-6 col-6 col-lg-3">
+          <div class="product-card">
+            
+            <div class="product-img-wrap" data-dav="./image/noodles7.jpg" data-hover="./image/noodles7.jpg">
+              <img src="./image/noodles7.jpg" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(24)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+        
+      
+
+          <div class="product-info">
+            <h5 class="text-dark">Chiken Pepper Noodles</h5>
+            <span class="price">$10.00</span>
+            <span class="discount">-15%</span>
+            <span class="old-price">$35.00</span>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-6 col-lg-3">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/images (1).jpg" data-hover="./image/first_back.webp">
+              <img src="./image/images (1).jpg" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(25)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Karmiq Walnut Kernels</h5>
+            <span class="price">$150.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$200.00</span>
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 col-6 col-lg-3">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/images (1).jpg" data-hover="./image/first_back.webp">
+              <img src="./image/images (1).jpg" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(26)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Karmiq Walnut Kernels</h5>
+            <span class="price">$150.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$200.00</span>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 col-6 col-lg-3">
+          <div class="product-card">
+            <div class="product-img-wrap" data-dav="./image/images (1).jpg" data-hover="./image/first_back.webp">
+              <img src="./image/images (1).jpg" alt="Karmiq Walnut Kernels">
+              <div class="hover-icons">
+                <button class="icon-btn" onclick="cart(27)"><i class="fa-solid fa-cart-shopping"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-heart"></i></button>
+                <button class="icon-btn"><i class="fa-regular fa-clone"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <h5 class="text-dark">Karmiq Walnut Kernels</h5>
+            <span class="price">$150.00</span>
+            <span class="discount">-25%</span>
+            <span class="old-price">$200.00</span>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+<button class="carousel-control-prev" type="button" data-bs-target="#productCarousel2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#productCarousel2" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+  <!--7th section-->
+
+<div class="container hidden left">
+  <h2 class="categories mt-5">Special Products</h2>
+
+
+<div class="davidSection">
+      <div class="container">
+<div id="productCarousel3" class="carousel slide" data-bs-ride="false">
+<div class="carousel-inner">
+ 
+<div class="carousel-item active">
+       <div class="row davidRow justify-content-center">
+<div class="col-12 col-md-12 col-lg-4 davidCol">
+<div class="davidCard">
+<div class="davidCardImageWrap position-relative img-con">
+<img src="./image/blog-01_380x240.avif" class="davidCardImage" alt="Almonds">
+<div class="btnicon">
+  <i class="fa-solid fa-magnifying-glass fs-1 text-white"></i>
+</div>
+</div>
+<div class="davidCardBody">
+           <div class="davidCardDate"><i class="bi bi-calendar-event"></i> September 20, 2024</div>
+<div class="davidCardTitle">Nam Liber Tempor Cum</div>
+                  <p class="davidCardText">Duis autem vel eum iriure dolor in hendrerit in vulputate veli...</p>
+<div class="davidCardDivider"></div>
+          <a href="#" class="davidReadMore">Read more <i class="bi bi-arrow-right"></i></a>
+</div>
+</div>
+</div>
+
+
+<div class="col-12 col-md-12 col-lg-4 d-none d-md-block d-lg-block davidCol">
+<div class="davidCard">
+<div class="davidCardImageWrap position-relative img-con">
+<img src="./image/blog-02_380x240.avif" class="davidCardImage" alt="Almonds">
+<div class="btnicon">
+  <i class="fa-solid fa-magnifying-glass fs-1 text-white"></i>
+</div>
+</div>
+<div class="davidCardBody">
+<div class="davidCardDate"><i class="bi bi-calendar-event"></i> September 20, 2024</div>
+<div class="davidCardTitle">Nam Liber Tempor Cum</div>
+<p class="davidCardText">Duis autem vel eum iriure dolor in hendrerit in vulputate veli...</p>
+<div class="davidCardDivider"></div>
+<a href="#" class="davidReadMore">Read more <i class="bi bi-arrow-right"></i></a>
+</div>
+</div>
+</div>
+
+
+
+<div class="col-12 col-md-12 col-lg-4 d-none d-md-block d-lg-block davidCol">
+<div class="davidCard">
+<div class="davidCardImageWrap position-relative img-con">
+<img src="./image/blog-01_380x240.avif" class="davidCardImage" alt="Almonds">
+<div class="btnicon">
+  <i class="fa-solid fa-magnifying-glass fs-1 text-white"></i>
+</div>
+</div>
+<div class="davidCardBody">
+<div class="davidCardDate"><i class="bi bi-calendar-event"></i> September 20, 2024</div>
+<div class="davidCardTitle">Nam Liber Tempor Cum</div>
+<p class="davidCardText">Duis autem vel eum iriure dolor in hendrerit in vulputate veli...</p>
+<div class="davidCardDivider"></div>
+<a href="#" class="davidReadMore">Read more <i class="bi bi-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+</div>
+ 
+<div class="carousel-item">
+<div class="row davidRow justify-content-center">
+<div class="col-12 col-md-12 col-lg-4 davidCol">
+<div class="davidCard">
+<div class="davidCardImageWrap position-relative img-con">
+<img src="./image/blog-01_380x240.avif" class="davidCardImage" alt="Mixed nuts">
+<div class="btnicon">
+  <i class="fa-solid fa-magnifying-glass fs-1 text-white"></i>
+</div>
+
+</div>
+<div class="davidCardBody">
+<div class="davidCardDate"><i class="bi bi-calendar-event"></i> September 20, 2024</div>
+<div class="davidCardTitle">Tincidunt Ut Laoreet Dolore</div>
+<p class="davidCardText">Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magn...</p>
+<div class="davidCardDivider"></div>
+<a href="#" class="davidReadMore">Read more <i class="bi bi-arrow-right"></i></a>
+</div>
+</div>
+</div>
+
+
+
+<div class="col-12 col-md-12 col-lg-4 d-none d-md-block d-lg-block davidCol">
+<div class="davidCard">
+<div class="davidCardImageWrap position-relative img-con">
+           <img src="./image/blog-02_380x240.avif" class="davidCardImage" alt="Almonds">
+
+           <div class="btnicon">
+  <i class="fa-solid fa-magnifying-glass fs-1 text-white"></i>
+</div>
+</div>
+<div class="davidCardBody">
+       <div class="davidCardDate"><i class="bi bi-calendar-event"></i> September 20, 2024</div>
+<div class="davidCardTitle">Nam Liber Tempor Cum</div>
+<p class="davidCardText">Duis autem vel eum iriure dolor in hendrerit in vulputate veli...</p>
+<div class="davidCardDivider"></div>
+<a href="#" class="davidReadMore">Read more <i class="bi bi-arrow-right"></i></a>
+</div>
+</div>
+</div>
+
+
+
+<div class="col-12 col-md-12 col-lg-4 d-none d-md-block d-lg-block davidCol">
+<div class="davidCard">
+<div class="davidCardImageWrap position-relative img-con">
+<img src="./image/blog-01_380x240.avif" class="davidCardImage" alt="Almonds">
+<div class="btnicon">
+  <i class="fa-solid fa-magnifying-glass fs-1 text-white"></i>
+</div>
+</div>
+<div class="davidCardBody">
+<div class="davidCardDate"><i class="bi bi-calendar-event"></i> September 20, 2024</div>
+         <div class="davidCardTitle">Nam Liber Tempor Cum</div>
+<p class="davidCardText">Duis autem vel eum iriure dolor in hendrerit in vulputate veli...</p>
+<div class="davidCardDivider"></div>
+<a href="#" class="davidReadMore">Read more <i class="bi bi-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+ 
+
+ 
+</div>
+ 
+<div class="davidCarouselControlsWrap">
+<div class="davidCarouselLine"></div>
+<div class="btnnn mt-3">
+<button class="carousel-control-prev" type="button" data-bs-target="#productCarousel3" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#productCarousel3" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+</div>
+ 
+</div>
+</div>
+</div>
+ 
+
+<!-- 9th section -->
+
+<div class="container-fluid david-section py-5">
+
+    <div id="davidCarousel7" class="carousel slide">
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <div class="david-brand">
+                            <img src="./image/brand-logo-02.webp" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <div class="david-brand">
+                            <img src="./image/brand-logo-03.webp" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <div class="david-brand">
+                            <img src="./image/brand-logo-05.webp" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <div class="david-brand">
+                            <img src="./image/brand-logo-04.webp" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-2 d-lg-block d-none">
+                        <div class="david-brand">
+                            <img src="./image/brand-logo-02.webp" class="img-fluid">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <div class="david-brand">
+                            <img src="./image/brand-logo-02.webp" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <div class="david-brand">
+                            <img src="./image/brand-logo-02.webp" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <div class="david-brand">
+                            <img src="./image/brand-logo-04.webp" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-2">
+                        <div class="david-brand">
+                          <img src="./image/brand-logo-05.webp" class="img-fluid">
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-6 col-lg-2 d-none d-g-block">
+                        <div class="david-brand">
+                            <img src="./image/brand-logo-03.webp" class="img-fluid">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+
+</div>
+</div>
+</div>
+</div>
+<!-- 10th section -->
+
+
+
+<footer class="davidFooter py-5">
+
+<div class="container ">
+
+<div class="row align-items-center gy-4">
+
+<div class="col-lg-6">
+<div class="d-flex align-items-center">
+<i class="bi bi-envelope davidNewsletterIcon me-3"></i>
+<h2 class="davidNewsletterTitle mb-0">Sign Up For Newsletter</h2>
+</div>
+</div>
+
+<div class="col-lg-6">
+<div class="input-group davidNewsletterBox">
+<input type="email" class="form-control davidInput" placeholder="Your email address">
+<button class="btn davidSubscribeBtn ">Subscribe</button>
+</div>
+</div>
+
+</div>
+
+<hr class="davidDivider my-5">
+
+<div class="row gy-4">
+
+<div class="col-lg-3">
+
+<img src="./image/shop.png" class="img-fluid davidLogo mb-4">
+
+<p class="davidText">
+Carefully Dried Products<br>
+Processed To Preserve<br>
+Quality Freshness And<br>
+Natural Value.
+</p>
+
+</div>
+
+<div class="col-lg-3">
+
+<h3>
+
+<button class="btnn davidCollapseBtn p-0 text-start w-100 d-flex justify-content-between align-items-center"
+data-bs-toggle="collapse"
+data-bs-target="#davidInfo">
+
+<span>Information</span>
+
+<i class="bi bi-chevron-down"></i>
+
+</button>
+
+</h3>
+
+<div class="collapse  d-lg-block d-md-block" id="davidInfo">
+
+<ul class="list-unstyled davidList mt-4">
+
+<li><a href="#"><i class="bi bi-chevron-right"></i> About Us</a></li>
+
+<li><a href="#"><i class="bi bi-chevron-right"></i> Faq</a></li>
+
+<li><a href="#"><i class="bi bi-chevron-right"></i> Wishlist</a></li>
+
+<li><a href="#"><i class="bi bi-chevron-right"></i> Contact</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="col-lg-3">
+
+<h3>
+
+<button class="btnn davidCollapseBtn p-0 text-start w-100 d-flex justify-content-between align-items-center"
+data-bs-toggle="collapse"
+data-bs-target="#davidProducts">
+
+<span>Products</span>
+
+<i class="bi bi-chevron-down"></i>
+
+</button>
+
+</h3>
+
+<div class="collapse d-md-block d-lg-block" id="davidProducts">
+
+<ul class="list-unstyled davidList mt-4">
+
+<li><a href="#"><i class="bi bi-chevron-right"></i> Latest</a></li>
+
+<li><a href="#"><i class="bi bi-chevron-right"></i> Best Seller</a></li>
+
+<li><a href="#"><i class="bi bi-chevron-right"></i> Featured</a></li>
+
+<li><a href="#"><i class="bi bi-chevron-right"></i> Special</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="col-lg-3">
+
+<h3>
+
+<button class="btnn davidCollapseBtn p-0 text-start w-100 d-flex justify-content-between align-items-center"
+data-bs-toggle="collapse"
+data-bs-target="#davidStore">
+
+<span>Store Information</span>
+
+<i class="bi bi-chevron-down"></i>
+
+</button>
+
+</h3>
+
+<div class="collapse d-md-block d-lg-block" id="davidStore">
+
+<ul class="list-unstyled davidStoreList mt-4">
+
+<li class="mb-3">
+<i class="bi bi-geo-alt me-3"></i>
+A20 Green Hill Road,<br>
+<span class="ms-4">Fayetteville, California.</span>
+</li>
+
+<li class="mb-3">
+<i class="bi bi-telephone me-3"></i>
++1 209-223-2635
+</li>
+
+<li>
+<i class="bi bi-envelope me-3"></i>
+info@shopnest.com
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<div class="col-lg-3">
+
+<h3>
+
+<button class="btnn davidCollapseBtn p-0 text-start w-100 d-flex justify-content-between align-items-center"
+data-bs-toggle="collapse"
+data-bs-target="#davidSocial">
+
+<span>Social Media</span>
+
+<i class="bi bi-chevron-down"></i>
+
+</button>
+
+</h3>
+
+<div class="collapse show" id="davidSocial">
+
+<div class="davidSocial mt-4">
+
+<a href="#"><i class="bi bi-facebook"></i></a>
+
+<a href="#"><i class="bi bi-linkedin"></i></a>
+
+<a href="#"><i class="bi bi-pinterest"></i></a>
+
+<a href="#"><i class="bi bi-instagram"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<hr class="davidDivider my-5">
+
+<div class="row align-items-center gy-3">
+
+<div class="col-lg-6 text-center text-lg-start">
+
+<p class="davidCopyright mb-0">
+Copyright © 2026 ShopNest. Developed by DAV-Tech.
+</p>
+
+</div>
+
+<div class="col-lg-6 d-flex text-center text-lg-end gap-3">
+<i class="fa-brands fa-cc-visa fa-2x bg-primary"></i>
+<i class="fa-brands fa-cc-mastercard fa-2x bg-danger"></i>
+
+<i class="fa-brands fa-cc-amex fa-2x bg-success"></i>
+
+<i class="fa-brands fa-cc-paypal fa-2x bg-primary"></i>
+<i class="fa-brands fa-cc-diners-club fa-2x bg-gradient"></i>
+<i class="fa-brands fa-cc-discover fa-2x bg-success"></i>
+
+</div>
+
+</div>
+
+<a href="#" class="btn davidTopButton position-fixed bottom-0 end-0 m-4">
+<i class="bi bi-chevron-up">&uarr;</i>
+</a>
+
+</div>
+
+</footer>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
+
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="cartOffcanvasLabel">
+            <i class="fa-solid fa-cart-shopping me-2"></i>
+            Your Cart
+        </h5>
+
+        <button type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close">
+        </button>
+    </div>
+
+    <div class="offcanvas-body">
+
+        <div id="cartItems">
+            <p class="text-muted text-center" id="m">
+                Your cart is empty.
+            </p>
+        </div>
+
+        <div class="border-top pt-3 mt-3">
+
+            <div class="d-flex justify-content-between align-items-center">
+               
+                <p id="k" class="mb-0 fw-bold"></p>
+            </div>
+ <p class="mb-0 fw-bold mt-5">Total:</p>
+            <p id="add"></p>
+
+            <button type="button"
+                    class="btn btn-dark w-100 mt-3"
+                    onclick="order()">
+                <i class="fa-brands fa-whatsapp me-2"></i>
+                Order Via WhatsApp
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id="alertt"></div>
+
+
+</body>
+
+<script src="./Jquery.js"></script>
+<script src="./js/bootstrap.bundle.js"></script>
+
+<script src="micron.js"></script>
+
+
+</html>
